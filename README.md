@@ -5,6 +5,11 @@ Sirve como estructura inicial para un MVW (Whatever) en php
 > * **raiz**
 >   * **.htaccess** (funcion: redirige **TODO** hacia **/public**)
 >   * **app** (archivos del proyecto: controllers, models, services, views, etc.)
+>     * **config**
+>     * **controllers**
+>     * **models**
+>     * **services**
+>     * **views**
 >   * **system** (archivos "base" del "framework": Controller, Database, Router, Request, Response, View, etc.)
 >   * **public** (archivos "estaticos" y "publicos": css, js, imagenes, fuentes, etc.)
 >     * **assets**
