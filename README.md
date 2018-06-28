@@ -5,7 +5,7 @@ Sirve como estructura inicial para un MVW (Whatever) en php
 para evitar problemas con las urls (REQUEST_URI) se recomienda que el servidor apunte a la carpeta del proyecto
 
 > * **raiz**
->   * **.htaccess** (funcion: redirige **TODO** hacia **/public**)
+>   * **[.htaccess](.htaccess)** (funcion: redirige **TODO** hacia **/public**)
 >   * **app** (archivos del proyecto: controllers, models, services, views, etc.)
 >     * **config**
 >     * **controllers**
@@ -19,4 +19,4 @@ para evitar problemas con las urls (REQUEST_URI) se recomienda que el servidor a
 >       * **js**
 >       * **imagenes**
 >     * **index.php** (archivo de entrada)
->     * **.htaccess** (funcion: filtra la peticion hacia index.php si no es un archivo en assets (css, js, imagenes, etc.))
+>     * **[.htaccess](public/.htaccess)** (funcion: filtra la peticion hacia index.php si no es un archivo en assets (css, js, imagenes, etc.))
