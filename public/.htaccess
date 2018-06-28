@@ -1,0 +1,14 @@
+AddDefaultCharset UTF-8
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# if request_filename is not a directory
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# if request_filename is not a file
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# envia todo a index.php/loquesea
+RewriteRule ^(.+)$ index.php [QSA,L]
+</IfModule>
