@@ -15,7 +15,7 @@ para evitar problemas con las urls (REQUEST_URI) se recomienda que el servidor a
 >   * **system** (archivos "base" del "framework": Controller, Database, Router, Request, Response, View, etc.)
 >   * **public** (archivos "estaticos" y "publicos": css, js, imagenes, fuentes, etc.)
 >     * **assets**
->       * **css**
+>       * **[css](public/css)**
 >       * **js**
 >       * **imagenes**
 >     * **index.php** (archivo de entrada)
