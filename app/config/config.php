@@ -4,7 +4,7 @@
 
 $config = array();
 
-$config["c"] = 25;
+$config["variable"] = 25;
 
 return $config;
 
@@ -15,7 +15,7 @@ return $config;
  * 
  * $config = include APP_ROOT."config/config.php";
  * 
- * echo $config["HTTP_ROOT"];
+ * echo $config["variable"];
  * 
  * > 25
  */
